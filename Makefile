@@ -1,7 +1,7 @@
 MAIN_OUT = main.out
 
 .PHONY:
-all: build run_python
+all: build gdb
 
 build:
 	gcc -c -Wall -Werror -fpic dummy.c
